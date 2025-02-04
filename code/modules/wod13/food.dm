@@ -401,6 +401,10 @@
 		new /datum/data/mining_equipment("female rugged attire",	/obj/item/clothing/under/vampire/gangrel/female,	15),
 		new /datum/data/mining_equipment("yellow sleeveless shirt",	/obj/item/clothing/under/vampire/larry,	15),
 		new /datum/data/mining_equipment("white sleeveless shirt",	/obj/item/clothing/under/vampire/bandit,	15),
+		new /datum/data/mining_equipment("white turtleneck", /obj/item/clothing/under/vampire/turtleneck_white,	15),
+		new /datum/data/mining_equipment("black turtleneck", /obj/item/clothing/under/vampire/turtleneck_black,	15),
+		new /datum/data/mining_equipment("red turtleneck",	/obj/item/clothing/under/vampire/turtleneck_red,	15),
+		new /datum/data/mining_equipment("navy turtleneck",	/obj/item/clothing/under/vampire/turtleneck_navy,	15),
 		new /datum/data/mining_equipment("biker outfit",	/obj/item/clothing/under/vampire/biker,	15),
 		new /datum/data/mining_equipment("burlesque outfit", /obj/item/clothing/under/vampire/burlesque,	15),
 		new /datum/data/mining_equipment("daisy dukes", /obj/item/clothing/under/vampire/burlesque/daisyd,	10),
@@ -457,6 +461,7 @@
 		new /datum/data/mining_equipment("yellow robes",	/obj/item/clothing/suit/hooded/robes/yellow,	40),
 		new /datum/data/mining_equipment("green robes",	/obj/item/clothing/suit/hooded/robes/green,	40),
 		new /datum/data/mining_equipment("red robes",	/obj/item/clothing/suit/hooded/robes/red,	40),
+		new /datum/data/mining_equipment("blue robes", /obj/item/clothing/suit/hooded/robes/blue,	40),
 		new /datum/data/mining_equipment("purple robes",	/obj/item/clothing/suit/hooded/robes/purple,	40)
 	)
 
@@ -483,7 +488,16 @@
 		new /datum/data/mining_equipment("jester mask",	/obj/item/clothing/mask/vampire/venetian_mask/jester,	50),
 		new /datum/data/mining_equipment("bloody mask",	/obj/item/clothing/mask/vampire/venetian_mask/scary,	30),
 		new /datum/data/mining_equipment("comedy mask", /obj/item/clothing/mask/vampire/comedy,	25),
-		new /datum/data/mining_equipment("tragedy mask", /obj/item/clothing/mask/vampire/tragedy,	25)
+		new /datum/data/mining_equipment("tragedy mask", /obj/item/clothing/mask/vampire/tragedy,	25),
+		new /datum/data/mining_equipment("blue wizard hat",	/obj/item/clothing/head/vampire/wizard/blue, 25),
+		new /datum/data/mining_equipment("red wizard hat",	/obj/item/clothing/head/vampire/wizard/red, 25),
+		new /datum/data/mining_equipment("yellow wizard hat",	/obj/item/clothing/head/vampire/wizard/yellow, 25),
+		new /datum/data/mining_equipment("green wizard hat",	/obj/item/clothing/head/vampire/wizard/green, 25),
+		new /datum/data/mining_equipment("dark red wizard hat",	/obj/item/clothing/head/vampire/wizard/darkred, 25),
+		new /datum/data/mining_equipment("grey wizard hat",	/obj/item/clothing/head/vampire/wizard/grey, 25),
+		new /datum/data/mining_equipment("white wizard hat",	/obj/item/clothing/head/vampire/wizard/white, 25),
+		new /datum/data/mining_equipment("black wizard hat",	/obj/item/clothing/head/vampire/wizard/black, 25),
+		new /datum/data/mining_equipment("purple wizard hat",	/obj/item/clothing/head/vampire/wizard/purple, 25)
 
 	)
 
@@ -528,6 +542,8 @@
 	prize_list = list(
 		new /datum/data/mining_equipment("lighter",		/obj/item/lighter/greyscale,	10),
 		new /datum/data/mining_equipment("zippo lighter",	/obj/item/lighter,	20),
+		new /datum/data/mining_equipment("Bailer", /obj/item/bailer, 20),
+		new /datum/data/mining_equipment("Weed Seed", /obj/item/weedseed, 20),
 		new /datum/data/mining_equipment("cannabis puff",		/obj/item/clothing/mask/cigarette/rollie/cannabis,	40),
 		new /datum/data/mining_equipment("bong",	/obj/item/bong,		50),
 		new /datum/data/mining_equipment("lockpick",	/obj/item/vamp/keys/hack, 50),
