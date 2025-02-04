@@ -392,7 +392,7 @@
 	id_type_name = "whip badge"
 	desc = "This badge shows your servitude to an important person."
 	icon = 'code/modules/wod13/items.dmi'
-	icon_state = "id2"
+	icon_state = "onyxbadge"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
@@ -405,7 +405,7 @@
 	id_type_name = "steward badge"
 	desc = "This badge shows you're very good at taking care of someone else's property."
 	icon = 'code/modules/wod13/items.dmi'
-	icon_state = "id8"
+	icon_state = "emeraldbadge"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
@@ -418,7 +418,7 @@
 	id_type_name = "myrmidon badge"
 	desc = "A badge which shows you're responsible enough to protect someone important but not responsible enough to protect the most important."
 	icon = 'code/modules/wod13/items.dmi'
-	icon_state = "id4"
+	icon_state = "rubybadge"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
