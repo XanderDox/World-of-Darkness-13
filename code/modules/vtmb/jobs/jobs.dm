@@ -398,7 +398,7 @@
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
 	onflooricon = 'code/modules/wod13/onfloor.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	worn_icon_state = "id2"
+	worn_icon_state = "onyxBadge"
 
 /obj/item/card/id/steward
 	name = "primogen's steward badge"
@@ -411,7 +411,7 @@
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
 	onflooricon = 'code/modules/wod13/onfloor.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	worn_icon_state = "id8"
+	worn_icon_state = "emeraldBadge"
 
 /obj/item/card/id/myrmidon
 	name = "primogen's myrmidon badge"
@@ -424,4 +424,4 @@
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
 	onflooricon = 'code/modules/wod13/onfloor.dmi'
 	worn_icon = 'code/modules/wod13/worn.dmi'
-	worn_icon_state = "id4"
+	worn_icon_state = "rubyBadge"
