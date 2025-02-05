@@ -203,6 +203,56 @@
 	fire_controled = TRUE
 	wall_rating = HIGH_WALL_RATING
 
+/area/vtm/cabinet
+	name = "Millenium Upper Level"
+	icon_state = "prince"
+	ambience_index = AMBIENCE_INTERIOR
+	music = /datum/vampiremusic/prince
+	upper = FALSE
+	zone_type = "elysium"
+	fire_controled = TRUE
+	wall_rating = HIGH_WALL_RATING
+
+/area/vtm/milleniumtower2
+	name = "Millenium Tower F2"
+	icon_state = "milleniumtowerf2"
+	ambience_index = AMBIENCE_INTERIOR
+	music = /datum/vampiremusic/prince
+	upper = FALSE
+	zone_type = "elysium"
+	fire_controled = TRUE
+	wall_rating = HIGH_WALL_RATING
+
+/area/vtm/milleniumtower3
+	name = "Millenium Tower F3"
+	icon_state = "milleniumtowerf3"
+	ambience_index = AMBIENCE_INTERIOR
+	music = /datum/vampiremusic/prince
+	upper = FALSE
+	zone_type = "elysium"
+	fire_controled = TRUE
+	wall_rating = HIGH_WALL_RATING
+
+/area/vtm/milleniumtower4
+	name = "Millenium Tower F4"
+	icon_state = "milleniumtowerf4"
+	ambience_index = AMBIENCE_INTERIOR
+	music = /datum/vampiremusic/prince
+	upper = FALSE
+	zone_type = "elysium"
+	fire_controled = TRUE
+	wall_rating = HIGH_WALL_RATING
+
+/area/vtm/milleniumventrue
+	name = "Millenium Tower Ventrue "
+	icon_state = "milleniumtowerventrue"
+	ambience_index = AMBIENCE_INTERIOR
+	music = /datum/vampiremusic/prince
+	upper = FALSE
+	zone_type = "elysium"
+	fire_controled = TRUE
+	wall_rating = HIGH_WALL_RATING
+
 /area/vtm/jazzclub
 	name = "Jazz Club"
 	icon_state = "camarilla"
@@ -217,16 +267,6 @@
 	icon_state = "melpominee"
 	ambience_index = AMBIENCE_INTERIOR
 	upper = FALSE
-	fire_controled = TRUE
-	wall_rating = HIGH_WALL_RATING
-
-/area/vtm/cabinet
-	name = "Millenium Upper Level"
-	icon_state = "prince"
-	ambience_index = AMBIENCE_INTERIOR
-	music = /datum/vampiremusic/prince
-	upper = FALSE
-	zone_type = "elysium"
 	fire_controled = TRUE
 	wall_rating = HIGH_WALL_RATING
 
