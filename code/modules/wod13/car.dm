@@ -660,7 +660,6 @@ SUBSYSTEM_DEF(carpool)
 	dir = WEST
 	beep_sound = 'code/modules/wod13/sounds/migalka.ogg'
 	baggage_limit = 45
-	baggage_max = WEIGHT_CLASS_BULKY
 
 /obj/vampire_car/limousine/giovanni
 	icon_state = "giolimo"
