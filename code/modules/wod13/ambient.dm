@@ -185,24 +185,20 @@
 	fire_controled = TRUE
 	wall_rating = HIGH_WALL_RATING
 
-
 /area/vtm/interior/millennium_tower
 	name = "Millennium Tower F1"
 	icon_state = "millenniumtowerf1"
-	ambience_index = AMBIENCE_INTERIOR
 	music = /datum/vampiremusic/prince
-	upper = FALSE
 	zone_type = "elysium"
 	fire_controled = TRUE
-	wall_rating = HIGH_WALL_RATING
 
 /area/vtm/interior/millennium_tower/f2
 	name = "Millennium Tower F2"
-	icon_state = "milleniumtowerf2"
+	icon_state = "millenniumtowerf2"
 
 /area/vtm/interior/millennium_tower/f3
 	name = "Millennium Tower F3"
-	icon_state = "milleniumtowerf3"
+	icon_state = "millenniumtowerf3"
 
 /area/vtm/interior/millennium_tower/f4
 	name = "Millennium Tower F4"
