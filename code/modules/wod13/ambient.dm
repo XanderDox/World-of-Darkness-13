@@ -185,27 +185,10 @@
 	fire_controled = TRUE
 	wall_rating = HIGH_WALL_RATING
 
-/area/vtm/prince
-	name = "Millenium Tower"
-	icon_state = "prince"
-	ambience_index = AMBIENCE_PRINCE
-	upper = FALSE
-	zone_type = "elysium"
-	fire_controled = TRUE
-	wall_rating = HIGH_WALL_RATING
 
-/area/vtm/camarilla
-	name = "Millenium Appartements"
-	icon_state = "camarilla"
-	ambience_index = AMBIENCE_INTERIOR
-	upper = FALSE
-	zone_type = "elysium"
-	fire_controled = TRUE
-	wall_rating = HIGH_WALL_RATING
-
-/area/vtm/cabinet
-	name = "Millenium Upper Level"
-	icon_state = "prince"
+/area/vtm/milleniumtower1
+	name = "Millenium Tower F1"
+	icon_state = "milleniumtowerf1"
 	ambience_index = AMBIENCE_INTERIOR
 	music = /datum/vampiremusic/prince
 	upper = FALSE
@@ -243,9 +226,19 @@
 	fire_controled = TRUE
 	wall_rating = HIGH_WALL_RATING
 
+/area/vtm/milleniumtower5
+	name = "Millenium Tower F5"
+	icon_state = "milleniumtowerf5"
+	ambience_index = AMBIENCE_INTERIOR
+	music = /datum/vampiremusic/prince
+	upper = FALSE
+	zone_type = "elysium"
+	fire_controled = TRUE
+	wall_rating = HIGH_WALL_RATING
+
 /area/vtm/milleniumventrue
-	name = "Millenium Tower Ventrue "
-	icon_state = "milleniumtowerventrue"
+	name = "Millenium Tower Penthouse"
+	icon_state = "milleniumtowerpenthouse"
 	ambience_index = AMBIENCE_INTERIOR
 	music = /datum/vampiremusic/prince
 	upper = FALSE
