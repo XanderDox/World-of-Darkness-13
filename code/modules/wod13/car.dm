@@ -678,7 +678,6 @@ SUBSYSTEM_DEF(carpool)
 	beep_sound = 'code/modules/wod13/sounds/migalka.ogg'
 	access = "camarilla"
 	baggage_limit = 45
-	baggage_max = WEIGHT_CLASS_BULKY
 
 /obj/vampire_car/police
 	icon_state = "police"
