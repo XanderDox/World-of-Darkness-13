@@ -766,6 +766,40 @@
 	burnable = FALSE
 	lockpick_difficulty = 8
 
+/obj/structure/vampdoor/pentex_wood
+	icon_state = "wood-1"
+	baseicon = "wood"
+	locked = TRUE
+	lock_id = "pentex_executive"
+	burnable = TRUE
+	lockpick_difficulty = 10
+
+/obj/structure/vampdoor/pentex_glass
+	icon_state = "shop-1"
+	opacity = FALSE
+	locked = TRUE
+	baseicon = "shop"
+	glass = TRUE
+	lock_id = "pentex"
+	lockpick_difficulty = 8
+
+/obj/structure/vampdoor/pentex
+	icon_state = "cam-1"
+	baseicon = "cam"
+	opacity = TRUE
+	locked = TRUE
+	lock_id = "pentex"
+	lockpick_difficulty = 8
+
 /obj/structure/vampdoor/npc/Initialize()
 	. = ..()
 	lock_id = "npc[rand(1, 20)]"
+
+/obj/structure/vampdoor/police/chief
+	icon_state = "shop-1"
+	opacity = FALSE
+	locked = TRUE
+	baseicon = "shop"
+	glass = TRUE
+	lock_id = "police_chief"
+	lockpick_difficulty = 21
