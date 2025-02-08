@@ -409,7 +409,7 @@
 	desc = "An Endron International employee uniform. This one has sleeves!"
 	icon_state = "pentex_longsleeve"
 
-obj/item/clothing/under/pentex/pentex_turtleneck
+/obj/item/clothing/under/pentex/pentex_turtleneck
 	name = "Endron turtleneck"
 	desc = "An Endron International employee uniform. This one is a nice turtleneck!"
 	icon_state = "pentex_turtleneck"
@@ -419,17 +419,17 @@ obj/item/clothing/under/pentex/pentex_turtleneck
 	desc = "A nice suit with a green dress-shirt. This one has an Endron International tag on it!"
 	icon_state = "pentex_suit"
 
-obj/item/clothing/under/pentex/pentex_suitskirt
+/obj/item/clothing/under/pentex/pentex_suitskirt
 	name = "Endron suitskirt"
 	desc = "A nice suitskirt with a green dress-shirt. This one has an Endron International tag on it!"
 	icon_state = "pentex_suitskirt"
 
-obj/item/clothing/under/pentex/pentex_executive_suit
+/obj/item/clothing/under/pentex/pentex_executive_suit
 	name = "Endron executive suit"
 	desc = "A  white designer suit with a green dress shirt. This one has an Endron International tag on it!"
 	icon_state = "pentex_executivesuit"
 
-obj/item/clothing/under/pentex/pentex_executiveskirt
+/obj/item/clothing/under/pentex/pentex_executiveskirt
 	name = "Endron executive suitskirt"
 	desc = "A white designer suitskirt with a green dress shirt. This one has an Endron International tag on it!"
 	icon_state = "pentex_executiveskirt"
@@ -1241,22 +1241,19 @@ obj/item/clothing/under/pentex/pentex_executiveskirt
 	name = "Endron hardhat"
 	desc = "A yellow hardhat. This one has an Endron International logo on it!"
 	icon_state = "pentex_hardhat_yellow"
+	flags_inv = HIDEHAIR
 
 /obj/item/clothing/head/pentex/pentex_whitehardhat
 	name = "Endron hardhat"
 	desc = "A white hardhat. This one has an Endron International logo on it!"
 	icon_state = "pentex_hardhat_white"
+	flags_inv = HIDEHAIR
 
 /obj/item/clothing/head/pentex/pentex_beret
 	name = "First Team beret"
 	desc = "A black beret with a mysterious golden insigna bearing a spiral."
 	icon_state = "pentex_beret"
-
-/obj/item/clothing/head/pentex/pentex_balaclava
-	name = "Thick balaclava"
-	desc = "A black balaclava. This one is particularly thick."
-	icon_state = "pentex_balaclava"
-
+	flags_inv = HIDEHAIR
 
 //GLOVES
 
@@ -1392,6 +1389,14 @@ obj/item/clothing/under/pentex/pentex_executiveskirt
 	desc = "LOADSAMONEY"
 	icon_state = "balaclava"
 	inhand_icon_state = "balaclava"
+	flags_inv = HIDEFACE|HIDEHAIR|HIDEFACIALHAIR|HIDESNOUT
+	visor_flags_inv = HIDEFACE|HIDEFACIALHAIR|HIDESNOUT
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/clothing/mask/pentex/pentex_balaclava
+	name = "Thick balaclava"
+	desc = "A black balaclava. This one is particularly thick."
+	icon_state = "pentex_balaclava"
 	flags_inv = HIDEFACE|HIDEHAIR|HIDEFACIALHAIR|HIDESNOUT
 	visor_flags_inv = HIDEFACE|HIDEFACIALHAIR|HIDESNOUT
 	w_class = WEIGHT_CLASS_SMALL
