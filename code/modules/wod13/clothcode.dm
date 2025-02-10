@@ -378,7 +378,7 @@
 
 
 //PENTEX
-/obj/item/clothing/under/pentex/
+/obj/item/clothing/under/pentex
 	desc = "Some clothes."
 	name = "clothes"
 	icon_state = "error"
