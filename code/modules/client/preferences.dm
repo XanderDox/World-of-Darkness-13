@@ -1576,7 +1576,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 /datum/preferences/proc/GetQuirkBalance()
 	var/bal = 0
-	if(pref_species.name == "Human")
+	if(pref_species.name == "Human" || "Werewolf")
 		bal = 3
 	for(var/V in all_quirks)
 		var/datum/quirk/T = SSquirks.quirks[V]
