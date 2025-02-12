@@ -3526,7 +3526,7 @@
 "btb" = (/obj/structure/vampipe{icon_state = "piping32"},/obj/structure/trashbag{pixel_x = -10; pixel_y = -12},/turf/open/floor/plating/vampcanal,/area/vtm/sewer)
 "btc" = (/obj/item/clothing/head/vampire/skull,/obj/effect/gibspawner/human/bodypartless,/turf/open/floor/plating/rough/cave,/area/vtm/interior/giovanni)
 "btd" = (/obj/effect/decal/bordur,/turf/open/floor/plating/vampgrass,/area/vtm/pacificheights)
-"bte" = (/obj/structure/mopbucket,/obj/item/mop,/obj/effect/decal/cleanable/cobweb,/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/plating/vampplating/mono,/area/vtm/interior/millennium_tower/ventrue)
+"bte" = (/obj/structure/mopbucket,/obj/item/mop,/obj/effect/decal/cleanable/cobweb,/obj/effect/decal/cleanable/dirt/dust,/obj/item/reagent_containers/glass/bucket,/turf/open/floor/plating/vampplating/mono,/area/vtm/interior/millennium_tower/ventrue)
 "btf" = (/obj/effect/decal/cardboard,/turf/open/floor/plating/sidewalk/poor,/area/vtm/supply)
 "btg" = (/obj/effect/decal/bordur{dir = 6},/turf/open/floor/plating/sidewalk/poor,/area/vtm/supply)
 "bth" = (/obj/effect/decal/bordur,/turf/open/floor/plating/sidewalk/poor,/area/vtm/supply)
