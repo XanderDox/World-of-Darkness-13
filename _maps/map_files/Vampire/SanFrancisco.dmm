@@ -28062,16 +28062,6 @@
 /obj/structure/punching_bag,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior)
-"cPd" = (
-/mob/living/simple_animal/pet/dog/corgi{
-	icon = 'code/modules/wod13/werewolf_lupus.dmi';
-	icon_dead = null;
-	icon_state = "white";
-	name = "Lupus Wolfkin";
-	desc = "A white timber wolf."
-	},
-/turf/open/floor/plating/vampgrass,
-/area/vtm/wendigo)
 "cPD" = (
 /obj/structure/table/wood,
 /obj/item/clothing/suit/hooded/robes/red,
@@ -45663,13 +45653,6 @@
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/laundromat)
-"lRB" = (
-/mob/living/simple_animal/hostile/beastmaster{
-	name = "Lupus Wolfin";
-	desc = "A brown timber wolf."
-	},
-/turf/open/floor/plating/vampdirt,
-/area/vtm/wendigo)
 "lRE" = (
 /obj/machinery/light{
 	dir = 8;
@@ -51425,16 +51408,6 @@
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/plating/rough,
 /area/vtm/interior)
-"oUe" = (
-/mob/living/simple_animal/pet/dog/corgi{
-	icon = 'code/modules/wod13/werewolf_lupus.dmi';
-	icon_dead = null;
-	icon_state = "white";
-	name = "Lupus Wolfkin";
-	desc = "A white timber wolf."
-	},
-/turf/open/floor/plating/vampdirt,
-/area/vtm/wendigo)
 "oUo" = (
 /mob/living/carbon/human/npc/guard,
 /turf/open/floor/plating/vampgrass,
@@ -55908,17 +55881,6 @@
 /obj/structure/closet/cardboard,
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/clinic)
-"rgM" = (
-/obj/structure/flora/ausbushes/sparsegrass,
-/mob/living/simple_animal/pet/dog/corgi{
-	icon = 'code/modules/wod13/werewolf_lupus.dmi';
-	icon_dead = null;
-	icon_state = "white";
-	name = "Lupus Wolfkin";
-	desc = "A white timber wolf."
-	},
-/turf/open/floor/plating/vampgrass,
-/area/vtm/wendigo)
 "rgW" = (
 /obj/structure/clothinghanger,
 /turf/open/floor/plating/rough,
@@ -306781,7 +306743,7 @@ jON
 nde
 cFI
 cFI
-cPd
+cFI
 cFI
 cFI
 erA
@@ -306800,7 +306762,7 @@ hxZ
 cFI
 cFI
 cFI
-rgM
+eaR
 cFI
 cFI
 kcb
@@ -308845,7 +308807,7 @@ fSH
 gkm
 cFI
 cFI
-lRB
+gbh
 gbh
 gbh
 iAB
@@ -308870,7 +308832,7 @@ cFI
 cFI
 gbh
 gbh
-oUe
+gbh
 pPd
 pPd
 aab
