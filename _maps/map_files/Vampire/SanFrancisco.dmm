@@ -66305,7 +66305,9 @@
 /area/vtm/clinic)
 "wFC" = (
 /obj/structure/stone_tile/center/cracked,
-/turf/open/floor/plating/vampoceancrossable,
+/turf/open/floor/plating/vampocean{
+	density = 0
+	},
 /area/vtm/wendigo)
 "wFN" = (
 /obj/item/chair/stool/bar,
@@ -67914,7 +67916,9 @@
 /area/vtm/interior/shop)
 "xqN" = (
 /obj/structure/stone_tile/center,
-/turf/open/floor/plating/vampoceancrossable,
+/turf/open/floor/plating/vampocean{
+	density = 0
+	},
 /area/vtm/wendigo)
 "xrd" = (
 /obj/item/flashlight/lantern,
