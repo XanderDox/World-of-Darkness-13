@@ -5646,7 +5646,7 @@
 /obj/machinery/door/poddoor/shutters{
 	damage_deflection = 50;
 	dir = 4;
-	id = "pentex_exec";
+	id = "clinic";
 	max_integrity = 200;
 	name = "Parking Shutter"
 	},
@@ -80732,7 +80732,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+aab
 aab
 aab
 aab
@@ -80989,8 +80989,8 @@ aaa
 aaa
 aaa
 aaa
-aaa
 aab
+aaj
 aaj
 aaj
 aaj
@@ -81247,9 +81247,9 @@ aaa
 aaa
 aaa
 aab
-xfd
 aaj
 aal
+aaj
 aal
 aal
 aal
